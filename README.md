@@ -1,4 +1,34 @@
+<div align = "justify">
 # Data-To-Question Generation using Deep Learning (IBDAP conference)
+A program to automatically generate natural language questions from scientific datasets.
+  
+## Abstract
+This paper presents an innovative approach to enhancing the utilization of publicly available datasets through the development of an automated question generation (AQG) system. The AQG system is designed to facilitate easier access, analysis, and understanding of complex datasets by generating insightful questions. By leveraging a combination of deep learning models for semantic typing, entity recognition, and natural language processing (NLP), the system aims to bridge the gap between extensive data resources and the general public's ability to leverage such data for knowledge and decision-making.
+
+## Introduction
+The vast accumulation of data by governmental and non-governmental organizations represents a goldmine of information that is often underexploited. The primary challenge lies in the requirement for specialized expertise to navigate, analyze, and draw insights from these datasets. Our project introduces a prototype system that automates the generation of questions from relational datasets, offering a more intuitive way for users to engage with and understand data.
+
+## System Architecture and Methodology
+The AQG system architecture is delineated into five distinct phases: data extraction, cleaning, pre-processing, entity recognition via deep learning, and question formulation. We demonstrate the system's efficacy through examples, comparing its generated questions to those of AI models like ChatGPT. Our results indicate a promising capability in generating accurate, contextually relevant questions that outperform existing AI in terms of adherence to factual data.
+
+#### The core technologies employed include:
+
+Semantic Typing and Entity Recognition: Utilizing deep learning models like Sherlock for semantic categorization of dataset columns.
+Question Formulation: A novel approach combining column names, associated values, and semantic operators to generate meaningful questions.
+Results and Comparative Analysis
+Our prototype showcases the potential in generating factual, insightful questions from datasets, surpassing conventional AI models in accuracy and relevance. The comparative analysis against ChatGPT's outputs highlights our system's superior adherence to dataset facts, although ChatGPT demonstrates more fluent question formulation.
+
+## Limitations and Future Work
+The system, while promising, faces limitations in semantic type detection accuracy and the breadth of datasets it can effectively process. Future iterations will focus on enhancing semantic recognition, expanding the range of datasets handled, and refining question generation templates for broader applicability.
+
+## Conclusion
+The AQG project represents a significant step towards democratizing data analytics, making it more accessible and understandable to the public. By automating the generation of questions, we offer a pathway to unlocking the value hidden in vast datasets, thereby fostering a more informed and data-literate society.
+
+## Keywords
+Question Generation, Data Analytics, Semantic Typing, Meta Categories, Sherlock, Spacy, Semantic Distance Calculation, ChatGPT, LDA, NLP, Deep Learning, Knowledge Extraction, Topic Modeling.
+
+</div>
+
 
 Automated-Question-Generation
 A program to automatically generate natural language questions from scientific datasets.
