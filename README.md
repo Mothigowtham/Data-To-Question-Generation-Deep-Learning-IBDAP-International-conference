@@ -1,6 +1,5 @@
-<div align = "justify">
-
 # Data-To-Question Generation using Deep Learning (IBDAP conference)
+<div align = "justify">
 A program to automatically generate natural language questions from scientific datasets.
   
 ## Abstract
